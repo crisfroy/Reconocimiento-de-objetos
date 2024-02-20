@@ -7,8 +7,8 @@ if not os.path.exists(Datos):
     print('Carpeta creada: ',Datos)
     os.makedirs(Datos)
 cap = cv2.VideoCapture(0,cv2.CAP_DSHOW)
-x1, y1 = 190, 80
-x2, y2 = 450, 398
+x1, y1 = 200, 80
+x2, y2 = 320, 398
 count = 0
 while True:
     ret, frame = cap.read()
